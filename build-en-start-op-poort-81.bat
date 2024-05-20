@@ -10,4 +10,4 @@ docker rm demo-container
 docker build -t demo-site .
 
 # Start een nieuwe container met de naam "demo-container" op poort 81
-docker run -d -p 81:81 --name demo-container demo-site
+docker run -d -p 81:80 --name demo-container demo-site
