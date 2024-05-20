@@ -1,6 +1,7 @@
-@echo off
-REM Stop de container
-docker stop demo-site
+#!/bin/bash
 
-REM Verwijder de container
-docker rm demo-site
+# Stop de container met de naam "demo-container"
+docker stop demo-container
+
+# Verwijder de gestopte container
+docker rm demo-container
