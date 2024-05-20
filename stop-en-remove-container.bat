@@ -5,3 +5,5 @@ docker stop demo-container
 
 # Verwijder de gestopte container
 docker rm demo-container
+
+sudo kill 81
